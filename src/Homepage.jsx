@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Homepage = () => {
+const Home = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-800 p-4">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gray-800 p-4">
       <div className="max-w-6xl mx-auto text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="w-2/3 mx-auto md:w-full md:block order-1 md:order-2">
           <img 
@@ -45,4 +45,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;

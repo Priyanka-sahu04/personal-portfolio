@@ -1,23 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from './Navbar';
-import Homepage from './Homepage';
-import About from './About';
-import Projects from './Projects';
+import React from "react";
+import Navbar from "./Navbar";
+import Home from "./Homepage";
+import About from "./About";
+import Projects from "./Projects";
 import Contact from "./Contact";
-import './App.css';
+import Skills from "./Skills";
 
-function App() {
+const App = () => {
   return (
-    <Router>
+    <div className="font-sans bg-gray-100 text-gray-900">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </div>
   );
-}
+};
 
 export default App;

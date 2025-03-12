@@ -16,7 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-gray-900 text-white">
+    <div id="contact" className="min-h-screen flex flex-col justify-between bg-gray-900 text-white">
       
       {/* Contact Content */}
       <div className="flex flex-col items-center justify-center flex-grow px-6">

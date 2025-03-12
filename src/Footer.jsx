@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,47 +10,47 @@ const Footer = () => {
           
           {/* Email Address */}
           <div className="flex flex-col items-center">
-            <div className="bg-gray-800 p-4 rounded-full">
+            <a href="mailto:priyankasahusahu23@navgurukul.org" className="bg-gray-800 p-4 rounded-full hover:bg-purple-500 transition">
               <Mail size={32} className="text-purple-400" />
-            </div>
+            </a>
             <h3 className="text-lg font-semibold mt-4">Email</h3>
-            <p className="text-gray-400">
-              <a href="mailto:info@example.com" className="hover:text-purple-400 transition">info@example.com</a>
-            </p>
-            <p className="text-gray-400">
-              <a href="mailto:support@example.com" className="hover:text-purple-400 transition">support@example.com</a>
+            <p className="text-gray-400">priyankasahusahu23@navgurukul.org
             </p>
           </div>
 
           {/* Address */}
           <div className="flex flex-col items-center">
-            <div className="bg-gray-800 p-4 rounded-full">
+            <a href="https://www.google.com/maps/place/Navgurukul+Raipur/@21.2235189,81.6946669,19.59z/data=!4m6!3m5!1s0x3a28c3e0fe1d858f:0x742754bec029c6c2!8m2!3d21.2235625!4d81.6948281!16s%2Fg%2F11v5bbl9ms?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-4 rounded-full hover:bg-purple-500 transition">
               <MapPin size={32} className="text-purple-400" />
-            </div>
+            </a>
             <h3 className="text-lg font-semibold mt-4">Address</h3>
-            <p className="text-gray-400">82 12th Street, Office 14</p>
-            <p className="text-gray-400">Edinburgh, UK</p>
+            <p className="text-gray-400">
+                82 12th Street, Office 14
+            </p>
+            <p className="text-gray-400">
+                Edinburgh, UK
+            </p>
           </div>
 
           {/* GitHub */}
           <div className="flex flex-col items-center">
-            <div className="bg-gray-800 p-4 rounded-full">
+            <a href="https://github.com/Priyanka-sahu04" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-4 rounded-full hover:bg-purple-500 transition">
               <Github size={32} className="text-purple-400" />
-            </div>
+            </a>
             <h3 className="text-lg font-semibold mt-4">GitHub</h3>
             <p className="text-gray-400">
-              <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">github.com/your-github</a>
+              <a href="https://github.com/Priyanka-sahu04" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">github.com/your-github</a>
             </p>
           </div>
 
           {/* LinkedIn */}
           <div className="flex flex-col items-center">
-            <div className="bg-gray-800 p-4 rounded-full">
+            <a href="https://www.linkedin.com/in/priyanka-sahu-0ba32430b/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-4 rounded-full hover:bg-purple-500 transition">
               <Linkedin size={32} className="text-purple-400" />
-            </div>
+            </a>
             <h3 className="text-lg font-semibold mt-4">LinkedIn</h3>
             <p className="text-gray-400">
-              <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">linkedin.com/in/your-profile</a>
+              <a href="https://www.linkedin.com/in/priyanka-sahu-0ba32430b/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">linkedin.com/in/your-profile</a>
             </p>
           </div>
         </div>
