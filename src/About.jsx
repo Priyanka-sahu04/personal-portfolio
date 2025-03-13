@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, useInView } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { SiCodechef } from 'react-icons/si';
 import { useRef } from 'react';
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
       className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white p-20 flex flex-col items-center justify-center"
       ref={aboutRef}
     >
-      <div className="max-w-5xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div className=" container max-w-5xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-30 items-center">
         
         {/* Right Section */}
         <motion.div 
@@ -43,14 +44,14 @@ const About = () => {
             Hi, I'm <span className="text-purple-400 font-semibold">Priyanka Sahu</span>, an aspiring front-end developer passionate about crafting interactive and beautiful web experiences. Currently, I'm sharpening my skills in <strong>HTML, CSS, JavaScript, React, and Tailwind CSS</strong> at Navgurukul.
           </p>
           <div className="flex space-x-4 mt-8">
-            <a href="https://linkedin.com" className="text-purple-400 text-2xl hover:text-purple-500 transition"><FaLinkedin /></a>
-            <a href="https://github.com" className="text-purple-400 text-2xl hover:text-purple-500 transition"><FaGithub /></a>
-            <a href="https://twitter.com" className="text-purple-400 text-2xl hover:text-purple-500 transition"><FaTwitter /></a>
+            <a href="https://linkedin.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition"><FaLinkedin /></a>
+            <a href="https://github.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition"><FaGithub /></a>
+            <a href="https://www.codechef.com/users/your_username" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition"><SiCodechef /></a>
           </div>
           <a 
             href="/Downloads/cv.pdf" 
             download 
-            className="mt-8 inline-block bg-purple-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-purple-600 transition text-lg"
+            className="mt-8 inline-block bg-purple-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-purple-600 transition transform hover:scale-110 text-lg"
           >
             Download CV
           </a>

@@ -30,12 +30,12 @@ const Projects = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <section ref={ref} id="projects" className="min-h-screen bg-gray-800 text-white py-12">
+    <section ref={ref} id="projects" className="min-h-screen bg-gray-800 text-white py-12 px-4">
       <div className="text-center">
         <h2 className="text-3xl font-bold mb-6 pt-25">My Projects</h2>
       </div>
       <motion.div 
-        className="container mx-auto px-6 grid md:grid-cols-3 gap-8"
+        className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4"
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 1.8 }}
@@ -48,7 +48,7 @@ const Projects = () => {
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 1.5, delay: index * 0.2 }}
           >
-            <img src={project.image} alt={project.title} className="w-full h-62 object-cover"/>
+            <img src={project.image} alt={project.title} className="w-full h-56 object-cover"/>
             <div className="p-6">
               <h3 className="text-xl font-bold">{project.title}</h3>
               <p className="mt-2 text-gray-400">{project.description}</p>

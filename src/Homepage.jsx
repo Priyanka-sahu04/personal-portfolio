@@ -9,7 +9,7 @@ const Home = () => {
           <img 
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EPM_5JK952RaE22T82fW9L1Y6jW_JLUcTQ&s" 
             alt="Priyanka Sahu" 
-            className=" w-120 rounded-full shadow-xl shadow-purple-500/50 border-4 border-purple-500"
+            className=" w-110 rounded-full shadow-xl shadow-purple-500/50 border-4 border-purple-500"
           />
         </div>
         <div className="space-y-4 order-2 md:order-1">
@@ -34,8 +34,7 @@ const Home = () => {
           </p>
           <motion.a 
             href="/contact"
-            className="inline-block bg-white text-purple-600 font-semibold py-2 px-6 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-105"
-            whileHover={{ scale: 1.1 }}
+            className="mt-8 inline-block bg-purple-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-purple-600 text-lg transition transform hover:scale-110"
           >
             Contact Me
           </motion.a>
