@@ -7,7 +7,7 @@ const Home = () => {
       <div className="max-w-6xl mx-auto text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="w-2/3 mx-auto md:w-full md:block order-1 md:order-2">
           <img 
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EPM_5JK952RaE22T82fW9L1Y6jW_JLUcTQ&s" 
+            src="https://freedesignfile.com/upload/2018/01/Girl-working-with-laptop-at-work-Stock-Photo-02.jpg" 
             alt="Priyanka Sahu" 
             className=" w-110 rounded-full shadow-xl shadow-purple-500/50 border-4 border-purple-500"
           />

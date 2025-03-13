@@ -26,7 +26,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <img 
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EPM_5JK952RaE22T82fW9L1Y6jW_JLUcTQ&s" 
+            src="https://t3.ftcdn.net/jpg/11/28/59/18/360_F_1128591802_W5lPwt0lXVhkZVnfQmE0NYdYMV8ju9mo.jpg" 
             alt="Priyanka Sahu" 
             className="w-80 h-80 rounded-full shadow-xl border-4 border-purple-500"
           />
