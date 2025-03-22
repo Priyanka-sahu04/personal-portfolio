@@ -5,7 +5,6 @@ import { SiCodechef } from 'react-icons/si';
 import { useRef } from 'react';
 
 const About = () => {
-
   // Ref for scrolling
   const aboutRef = useRef(null);
   const isInView = useInView(aboutRef, { once: true, margin: "-100px" });
@@ -16,25 +15,10 @@ const About = () => {
       className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white p-20 flex flex-col items-center justify-center"
       ref={aboutRef}
     >
-      <div className=" container max-w-5xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-30 items-center">
-        
-        {/* Right Section */}
-        <motion.div 
-          className="relative flex flex-col items-center"
-          initial={{ opacity: 0, x: -100 }}
-          animate={isInView ? { opacity: 1, x: 0 } : {}}
-          transition={{ duration: 1 }}
-        >
-          <img 
-            src="https://t3.ftcdn.net/jpg/11/28/59/18/360_F_1128591802_W5lPwt0lXVhkZVnfQmE0NYdYMV8ju9mo.jpg" 
-            alt="Priyanka Sahu" 
-            className="w-80 h-80 rounded-full shadow-xl border-4 border-purple-500"
-          />
-        </motion.div>
-
+      <div className="container max-w-5xl w-full mx-auto grid grid-cols-1 md:grid-cols-1 gap-10 items-center text-center">
         {/* Left Section */}
         <motion.div 
-          className="flex flex-col items-center md:items-start text-center md:text-left"
+          className="flex flex-col items-center"
           initial={{ opacity: 0, x: 100 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}
@@ -44,12 +28,12 @@ const About = () => {
             Hi, I'm <span className="text-purple-400 font-semibold">Priyanka Sahu</span>, an aspiring front-end developer passionate about crafting interactive and beautiful web experiences. Currently, I'm sharpening my skills in <strong>HTML, CSS, JavaScript, React, and Tailwind CSS</strong> at Navgurukul.
           </p>
           <div className="flex space-x-4 mt-8">
-            <a href="https://linkedin.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition"><FaLinkedin /></a>
-            <a href="https://github.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition"><FaGithub /></a>
-            <a href="https://www.codechef.com/users/your_username" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition"><SiCodechef /></a>
+            <a href="https://linkedin.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaLinkedin /></a>
+            <a href="https://github.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaGithub /></a>
+            <a href="https://www.codechef.com/users/your_username" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><SiCodechef /></a>
           </div>
           <a 
-            href="/Downloads/cv.pdf" 
+            href="/Priyanka_Resume.pdf" 
             download 
             className="mt-8 inline-block bg-purple-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-purple-600 transition transform hover:scale-110 text-lg"
           >
@@ -84,7 +68,7 @@ const About = () => {
             </motion.div>
           ))}
         </div>
-      </motion.div>
+      </motion.div>  
     </section>
   );
 };
