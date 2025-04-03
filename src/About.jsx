@@ -28,9 +28,9 @@ const About = () => {
             Hi, I'm <span className="text-purple-400 font-semibold">Priyanka Sahu</span>, an aspiring front-end developer passionate about crafting interactive and beautiful web experiences. Currently, I'm sharpening my skills in <strong>HTML, CSS, JavaScript, React, and Tailwind CSS</strong> at Navgurukul.
           </p>
           <div className="flex space-x-4 mt-8">
-            <a href="https://linkedin.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaLinkedin /></a>
-            <a href="https://github.com" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaGithub /></a>
-            <a href="https://www.codechef.com/users/your_username" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><SiCodechef /></a>
+            <a href="https://www.linkedin.com/in/priyanka-sahu-0ba32430b/" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaLinkedin /></a>
+            <a href="https://github.com/Priyanka-sahu04" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaGithub /></a>
+            <a href="https://www.codechef.com/users/priyankass23" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><SiCodechef /></a>
           </div>
           <a 
             href="/Priyanka_Resume.pdf" 
