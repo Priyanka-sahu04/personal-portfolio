@@ -6,17 +6,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 text-center">
         
         {/* Contact Details Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 items-center">
-          
-          {/* Email Address */}
-          <div className="flex flex-col items-center">
-            <a href="mailto:priyankasahusahu23@navgurukul.org" className="bg-gray-800 p-4 rounded-full hover:bg-purple-500 transition">
-              <Mail size={32} className="text-purple-400" />
-            </a>
-            <h3 className="text-lg font-semibold mt-4">Email</h3>
-            <p className="text-gray-400">priyankasahusahu23@navgurukul.org
-            </p>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center">
 
           {/* Address */}
           <div className="flex flex-col items-center">
