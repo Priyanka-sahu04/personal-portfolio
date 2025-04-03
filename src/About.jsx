@@ -15,14 +15,14 @@ const About = () => {
       className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white p-5 flex flex-col items-center justify-center"
       ref={aboutRef}
     >
-      <div className="container max-w-5xl w-full mx-auto grid grid-cols-1 md:grid-cols-1 gap-10 items-center text-center">
+      <div className="container pt-12 max-w-5xl w-full mx-auto grid grid-cols-1 md:grid-cols-1 gap-10 items-center text-center">
         <motion.div 
           className="flex flex-col items-center"
           initial={{ opacity: 0, x: 100 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-5xl font-bold text-purple-400">About Me</h1>
+          <h1 className="text-4xl font-bold text-purple-400">About Me</h1>
           <p className="mt-6 text-lg text-gray-300">
             Hi, I'm <span className="text-purple-400 font-semibold">Priyanka Sahu</span>, an aspiring front-end developer passionate about crafting interactive and beautiful web experiences. Currently, I'm sharpening my skills in <strong>HTML, CSS, JavaScript, React, and Tailwind CSS</strong> at Navgurukul.
           </p>

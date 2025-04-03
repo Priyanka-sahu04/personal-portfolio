@@ -1,11 +1,10 @@
-import { Mail, MapPin, Github, Linkedin } from "lucide-react";
+import { MapPin, Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
       <div className="max-w-6xl mx-auto px-4 text-center">
         
-        {/* Contact Details Section */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center">
 
           {/* Address */}
@@ -15,10 +14,7 @@ const Footer = () => {
             </a>
             <h3 className="text-lg font-semibold mt-4">Address</h3>
             <p className="text-gray-400">
-                82 12th Street, Office 14
-            </p>
-            <p className="text-gray-400">
-                Edinburgh, UK
+                V.I.P. Road, Raipur, Chhattisgarh
             </p>
           </div>
 
@@ -29,7 +25,7 @@ const Footer = () => {
             </a>
             <h3 className="text-lg font-semibold mt-4">GitHub</h3>
             <p className="text-gray-400">
-              <a href="https://github.com/Priyanka-sahu04" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">github.com/your-github</a>
+              <a href="https://github.com/Priyanka-sahu04" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">github.com/Priyanka-sahu04</a>
             </p>
           </div>
 
@@ -40,7 +36,7 @@ const Footer = () => {
             </a>
             <h3 className="text-lg font-semibold mt-4">LinkedIn</h3>
             <p className="text-gray-400">
-              <a href="https://www.linkedin.com/in/priyanka-sahu-0ba32430b/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">linkedin.com/in/your-profile</a>
+              <a href="https://www.linkedin.com/in/priyanka-sahu-0ba32430b/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">linkedin.com/in/priyanka-sahu</a>
             </p>
           </div>
         </div>

@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="min-h-screen flex flex-col justify-between bg-gray-900 text-white">
+    <div id="contact" className="min-h-screen pt-19 flex flex-col justify-between bg-gray-900 text-white">
       {/* Contact Content */}
       <div className="flex flex-col items-center justify-center flex-grow px-6">
         <h1 className="text-3xl font-bold mb-6 text-center">Contact Me</h1>

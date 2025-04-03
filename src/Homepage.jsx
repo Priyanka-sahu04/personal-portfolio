@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import personalPic from './assets/pic.png';
 
 const Home = () => {
   const text = "Hi, I’m Priyanka Sahu";
@@ -9,7 +10,7 @@ const Home = () => {
       <div className="max-w-6xl mx-auto text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="w-2/3 mx-auto md:w-full md:block order-1 md:order-2">
           <img 
-            src="https://freedesignfile.com/upload/2018/01/Girl-working-with-laptop-at-work-Stock-Photo-02.jpg" 
+            src={personalPic}
             alt="Priyanka Sahu" 
             className="w-110 rounded-full shadow-xl shadow-purple-500/50 border-4 border-purple-500"
           />

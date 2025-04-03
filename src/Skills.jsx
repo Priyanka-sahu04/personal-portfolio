@@ -6,16 +6,16 @@ const Skills = () => {
     const skills = [
       { name: 'HTML & CSS', percent: 85 },
       { name: 'JavaScript', percent: 75 },
-      { name: 'React', percent: 60 },
+      { name: 'React', percent: 50 },
       { name: 'Responsive Web Design', percent: 90 },
-      { name: 'Tailwind CSS', percent: 65 },
+      { name: 'Tailwind CSS', percent: 60 },
     ];
 
     const education = [
-      { degree: "10th (High School)", institution: "XYZ School, Raipur", year: "2018", percentage: "75%" },
-      { degree: "12th (Higher Secondary)", institution: "ABC School, Raipur", year: "2020", percentage: "70%" },
-      { degree: "Bachelor's Degree", institution: "Pt. Ravishankar Shukla University", year: "2022 - Present", percentage: "Pursuing" },
-      { degree: "Frontend Development", institution: "Navgurukul Foundation", year: "2024 - Present", percentage: "Ongoing" },
+      { degree: "10th (High School)", institution: " Govt. Higher Secondary School, Raipur", year: "2020", percentage: "75%" },
+      { degree: "12th (Higher Secondary)", institution: "Govt. Higher Secondary School, Raipur", year: "2022", percentage: "64.2%" },
+      { degree: "Bachelor's Degree", institution: "Pt. Ravishankar Shukla University", year: "2024 - Present", percentage: "Pursuing" },
+      { degree: "Frontend Development", institution: "Navgurukul Foundation", year: "2023 - Present", percentage: "Ongoing" },
     ];
 
     const aboutRef = useRef(null);
@@ -34,7 +34,7 @@ const Skills = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1 }}
         >
-          <h2 className="text-3xl font-semibold text-purple-400 text-center">Skills</h2>
+          <h2 className="text-4xl font-semibold text-purple-400 text-center">Skills</h2>
           <ul className="mt-6 space-y-6">
             {skills.map((skill, index) => (
               <li key={index} className="w-full">
@@ -60,7 +60,7 @@ const Skills = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1 }}
         >
-          <h2 className="text-3xl font-semibold text-purple-400 text-center">Education</h2>
+          <h2 className="text-4xl font-semibold text-purple-400 text-center">Education</h2>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
             {education.map((edu, index) => (
               <motion.div 
