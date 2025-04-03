@@ -24,7 +24,7 @@ const Skills = () => {
     return (
       <section 
         id="skills" 
-        className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white pt-30 p-20 flex flex-col items-center space-y-12"
+        className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white pt-30 p-5 flex flex-col items-center space-y-12"
         ref={aboutRef}
       >
         {/* Skills Section */}

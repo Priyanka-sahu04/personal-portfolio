@@ -12,11 +12,10 @@ const About = () => {
   return (
     <section 
       id="about" 
-      className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white p-20 flex flex-col items-center justify-center"
+      className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white p-5 flex flex-col items-center justify-center"
       ref={aboutRef}
     >
       <div className="container max-w-5xl w-full mx-auto grid grid-cols-1 md:grid-cols-1 gap-10 items-center text-center">
-        {/* Left Section */}
         <motion.div 
           className="flex flex-col items-center"
           initial={{ opacity: 0, x: 100 }}
@@ -74,3 +73,18 @@ const About = () => {
 };
 
 export default About;
+
+
+
+
+
+
+
+
+
+
+{/* <div className="flex space-x-4 mt-8">
+            <a href="https://www.linkedin.com/in/priyanka-sahu-0ba32430b/" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaLinkedin /></a>
+            <a href="https://github.com/Priyanka-sahu04" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><FaGithub /></a>
+            <a href="https://www.codechef.com/users/priyankass23" target='blank' className="text-purple-400 text-4xl hover:text-purple-500 transition transform hover:scale-120"><SiCodechef /></a>
+</div> */}

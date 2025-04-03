@@ -7,6 +7,12 @@ import dashboard from './assets/dashboard.png';
 
 const projects = [
   {
+    title: "Quiz App",
+    description: "A coding quiz app with difficulty levels and a timer, built using React.",
+    techStack: "HTML, CSS, JavaScript",
+    image: quizImage,
+  },
+  {
     title: "AI-Powered Blog Title Generator",
     description: "A simple and responsive to-do list application built with HTML, CSS, and JavaScript.",
     techStack: "HTML, CSS, JavaScript",
@@ -17,12 +23,6 @@ const projects = [
     description: "An interactive image gallery with lightbox effect and responsive design.",
     techStack: "HTML, CSS, JavaScript",
     image: dashboard,
-  },
-  {
-    title: "Quiz App",
-    description: "A coding quiz app with difficulty levels and a timer, built using React.",
-    techStack: "HTML, CSS, JavaScript",
-    image: quizImage,
   },
 ];
 
